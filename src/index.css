@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:wght@200;400;500&display=swap');
+
 body {
-    background-color: #d9f99d;
+    background-color: #d1eca1;
+}
+
+html, body, #root {
+    min-height: 100vh;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+.font-berkshire {
+    font-family: 'Berkshire Swash', serif;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
 }
